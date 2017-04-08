@@ -274,7 +274,6 @@ ul.navbar-nav {
 }
 
 .about-me-box-text {
-	overflow: hidden;
 	text-align: left;
 }
 
@@ -293,14 +292,12 @@ ul.navbar-nav {
 .skills-box {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	height: 200px;
 }
 
 .skills-box-text-icon {
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
-	float: left;
 	color: #fff;
 	font-size: 50px;
 	text-align: center;
@@ -312,7 +309,6 @@ ul.navbar-nav {
 }
 
 .skills-box-text-description {
-	float: right;
 	text-align: left;
 }
 
@@ -342,7 +338,7 @@ ul.navbar-nav {
 	font-size: 60px;
 	text-align: center;
 	vertical-align: middle;
-	background: #4A6670;
+	/*background: #4A6670;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -350,13 +346,13 @@ ul.navbar-nav {
     -o-transition: all .6s ease-in-out;
 	-ms-transition: all .6s ease-in-out;
 	-moz-transition: all .6s ease-in-out;
-	-webkit-transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;*/
 }
 
-.philosophy-box .philosophy-box-icon:hover {
+/*.philosophy-box .philosophy-box-icon:hover {
 	background: #4A6670;
 	transform: rotateY(180deg);
-}
+}*/
 
 .philosophy-box h3 {
 	margin-top: 15px;
