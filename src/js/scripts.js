@@ -21,9 +21,9 @@ jQuery(document).ready(function() {
 	});
 
 	/***** Toggle Navigation *****/
-	// $('.header-links').waypoint(function() {
-	// 	$('nav').toggleClass('navbar-no-bg');
-	// });
+	$('.header-links').waypoint(function() {
+		$('nav').toggleClass('navbar-no-bg');
+	});
 	
     /***** Background Images *****/
     // $('.header').backstretch("src/img/backgrounds/header.jpg");
