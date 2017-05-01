@@ -78,7 +78,7 @@ img {
 }
 
 .loader i {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 50%;
 }
@@ -388,6 +388,7 @@ ul.navbar-nav {
 .project .project-text h2 {
   font-size: 18px;
   font-weight: bold;
+  text-transform: none;
   margin: 0 0 10px 0;
   color: #484c50;
 }
