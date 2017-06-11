@@ -1,46 +1,501 @@
+/* ----------- iPhone 5 and 5S ----------- */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-	
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 80px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
 
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 80px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 50%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
 }
 
-@media (max-width: 767px) {
-	
-	.navbar.navbar-no-bg { background: #444; }
-	.navbar-brand { margin-left: 15px; }
-	.navbar-collapse { border: 0; }
-	.navbar-inverse ul.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; }
-	
-	.header-text { 
-		padding: 140px 0; 
-	}
 
-	.header-text h1 {
-		font-size: 25px;
-	}
+/* ----------- iPhone 6 ----------- */
 
-	.header .header-links { 
-		margin-top: 25px;
-	}
 
-	.header .header-links a.btn { 
-		margin-top: 10px;
-	}
+/* Portrait */
 
-	.about-me-box {
-		margin-right: 20px;
-		margin-left: 20px;
-	}
-	
-	.about-me-box-text { 
-		margin-top: 30px;
-	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 120px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
 
-	.testimonial-list .testimonial-text {
-		margin: 30px 0px 0px 0px;
-	}
 
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 120px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 50%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 150px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  /***** Navigation *****/
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 120px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .about-me-box-text {
+    margin-top: 30px;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 50%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* ----------- iPad ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /***** Header *****/
+  .header-text {
+    padding: 400px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-me-box-text {
+    margin-top: 0;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /***** Header *****/
+  .header-text {
+    padding: 300px 0 0 130px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-me-box-text {
+    margin-top: 0;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* ----------- iPad Pro----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /***** General style, all sections *****/
+  .btn-default {
+    height: 60px;
+    min-width: 150px;
+    padding: 20px 20px 20px 20px;
+  }
+  .btn-alt {
+    height: 60px;
+    min-width: 150px;
+    padding: 20px 20px 20px 20px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 600px 0 0 0;
+  }
+  .header-text h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-me-box-text {
+    margin-top: 0;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /***** General style, all sections *****/
+  .btn-default {
+    height: 60px;
+    min-width: 150px;
+    padding: 20px 20px 20px 20px;
+  }
+  .btn-alt {
+    height: 60px;
+    min-width: 150px;
+    padding: 20px 20px 20px 20px;
+  }
+  /***** Header *****/
+  .header-text {
+    padding: 450px 0 0 130px;
+  }
+  .header-text h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .header-text .header-links {
+    margin-top: 10px;
+  }
+  /***** About Me *****/
+  .about-me-box {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-me-box-text {
+    margin-top: 0;
+  }
+  /***** Testimonials *****/
+  .testimonial-list .testimonial-text {
+    margin: 30px 0 0 0;
+  }
+  /***** Projects *****/
+  .project {
+    width: 90%;
+  }
+  .project img {
+    height: 150px;
+  }
+  .project .project-text {
+    height: 120px;
+    padding: 10px;
+  }
 }
