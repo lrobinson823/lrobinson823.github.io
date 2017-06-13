@@ -187,8 +187,9 @@ img {
 }
 
 ul.navbar-nav {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
+  margin-right: 20px;
 }
 
 .navbar-inverse ul.navbar-nav li a {
@@ -218,7 +219,7 @@ ul.navbar-nav {
 /***** Header *****/
 
 .header-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/backgrounds/header.jpg");
   background-size: cover;
   background-position: center bottom;
   height: 100vh;
@@ -226,7 +227,7 @@ ul.navbar-nav {
 
 .header-text {
   text-align: left;
-  padding: 225px;
+  padding: 225px 0 0 250px;
 }
 
 .header .header-links {
@@ -470,7 +471,7 @@ ul.navbar-nav {
 /***** Call to Action *****/
 
 .call-to-action-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/callToAction.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/backgrounds/callToAction.jpg");
   background-size: cover;
   background-position: 50% 55%;
   background-attachment: fixed;
