@@ -1,0 +1,200 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-box-text {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-description p {
+    padding: 0;
+  }
+  .top-content .text {
+    padding-top: 0;
+  }
+  .chapters-box .chapters-box-icon {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .h-chapter-box-text {
+    margin-top: 0;
+  }
+  .about-box-text {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar>.container .navbar-brand {
+    margin-left: 15px;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-inverse .navbar-toggle {
+    border-color: #444;
+  }
+  .inner-bg {
+    padding: 140px 0 100px 0;
+  }
+  .top-content .text {
+    text-align: center;
+  }
+  .top-content .top-big-link {
+    margin-top: 25px;
+  }
+  .top-content .top-big-link a.btn {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .header-container .text {
+    text-align: center;
+  }
+  .header-container .top-big-link {
+    margin-top: 25px;
+  }
+  .header-container .top-big-link a.btn {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .section-description p {
+    padding: 0;
+  }
+  .chapters-box {
+    text-align: center;
+  }
+  .chapters-box h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .h-chapter-box-text {
+    margin-top: 0;
+    text-align: center;
+  }
+  .h-chapter-box-ebook {
+    margin-top: 60px;
+  }
+  .v-review-box-text {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .v-review-box-video {
+    margin-top: 0;
+  }
+  .about-box-text {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .about-box-img {
+    margin-top: 0;
+  }
+  .about-social a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 415px) {
+  h1, h2 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  .navbar.navbar-no-bg {
+    background: #444;
+  }
+  .navbar>.container .navbar-brand {
+    margin-left: 15px;
+  }
+  .navbar-collapse {
+    border: 0;
+  }
+  .navbar-inverse ul.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-inverse .navbar-toggle {
+    border-color: #444;
+  }
+  .inner-bg {
+    padding: 80px 0 100px 0;
+  }
+  .top-content .text {
+    padding-top: 0;
+    text-align: center;
+  }
+  .top-content .top-big-link {
+    margin-top: 25px;
+  }
+  .top-content .top-big-link a.btn {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .header-container .text {
+    padding-top: 0;
+    text-align: center;
+  }
+  .header-container .top-big-link {
+    margin-top: 25px;
+  }
+  .header-container .top-big-link a.btn {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .section-description p {
+    padding: 0;
+  }
+  .chapters-box {
+    text-align: center;
+  }
+  .chapters-box h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .h-chapter-box-text {
+    margin-top: 0;
+    text-align: center;
+  }
+  .h-chapter-box-ebook {
+    margin-top: 60px;
+  }
+  .v-review-box-text {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .v-review-box-video {
+    margin-top: 0;
+  }
+  .about-box-text {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .about-box-img {
+    margin-top: 0;
+  }
+  .about-social a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .buy-box {
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
